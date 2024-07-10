@@ -1,37 +1,38 @@
-
 @font-face {
     font-family: Duke Fill;
     src: url(fonts/Duke\ Fill.ttf);
 }
 @font-face {
-    font-family:TT Lakes Medium DEMO ;
+    font-family: TT Lakes Medium DEMO;
     src: url(fonts/TT\ Lakes\ Medium.otf);
 }
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.container{
+.container {
     height: 100vh;
     width: 100%;
 }
-.nav
-{ position: sticky;
+.nav { 
     display: flex;
     width: 100%;
     background-color: BLACK;
-
+    position: fixed; /* Fixed position */
+    top: 0; /* Align at the top */
+    left: 0; /* Align at the left edge */
+    z-index: 1000; /* Ensure it stays on top */
 }
-.nav1{
+.nav1 {
     width: 10%;
 }
-.nav2{
+.nav2 {
     display: flex;
     align-items: center;
     width: 70%;
     gap: 20px;
 }
-.nav2 a{
+.nav2 a {
     display: flex;
     justify-content: space-evenly;
     font-size: 24px;
@@ -40,35 +41,37 @@
     text-decoration: none;
     color: white;
 }
-.nav2 a:hover{
+.nav2 a:hover {
     color: red;
 }
-.nav3{
+.nav3 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 20%;
 }
-.nav3 button{
-    font-family:TT Lakes Medium DEMO ;
+.nav3 button {
+    font-family: TT Lakes Medium DEMO;
     cursor: pointer;
     font-size: 18px;
     color: #f3f3f3;
     width: 95%;
     height: 70%;
     background-color: #da292a;
+    border: 0;
 }
-.store{
+.store {
     display: flex;
     justify-content: space-evenly;
     height: 13%;
-    display: flex;
     width: 100%;
     background-color: #da292a;
+    margin-top: 50px; /* Add margin to avoid overlap with fixed navbar */
 }
-.store1{
+.store1 {
     border-left: 1px solid rgba(244, 238, 238, 0.17);
     font-weight: 100;
+    font-size: 20px;
     font-family: Duke Fill;
     color: white;
     display: flex;
@@ -77,18 +80,18 @@
     text-decoration: none;
     width: 50%;
 }
-.store2{
+.store2 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
-
-.store2 img{
+.store2 img {
+    margin-top: 40px;
     object-fit: contain;
-  height: 100%;
+    height: 100%;
 }
-.store3{
+.store3 {
     border-left: 1px solid rgba(244, 238, 238, 0.17);
     display: flex;
     align-items: center;
@@ -96,13 +99,217 @@
     border-right: 1px solid rgba(244, 238, 238, 0.17);
     width: 50%;
 }
-.store3 button{
+.store3 button {
+    margin-top: 10px;
     border: 0px;
     font-size: 18px;
     cursor: pointer;
     border-radius: 5px;
-    font-family:TT Lakes Medium DEMO ;
+    font-family: TT Lakes Medium DEMO;
     padding: 16px 24px;
     color: #161616aa;
-
+}
+.spotlight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.video {
+    width: 100%;
+}
+.video video {
+    object-fit: cover;
+    width: 100%;
+    height: 650px;
+}
+.video2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+.video2 img {
+    height: 200px;
+    width: 30%;
+}
+.video2 h2 {
+    font-family: TT Lakes Medium DEMO;
+    color: white;
+}
+.video2 .vidbutton {
+    width: 90%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.vidbutton button {
+    border: 0;
+    border-radius: 5px;
+    font-family: TT Lakes Medium DEMO;
+    cursor: pointer;
+    font-size: 18px;
+    color: #f3f3f3;
+    background-color: #da292a;
+    padding: 20px 20px;
+}
+.spotlight2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.cahos{
+    width: 100%;
+}
+.cahos img{
+    object-fit: cover;
+    width: 100%;
+    height: 70%;
+}
+.pc{
+    position: absolute;
+    text-align: center;
+    width: 45%;
+    margin-left: 5%;
+}
+.pc h1{
+    font-family: Duke Fill;
+    font-size: 50px;
+}
+.pc h6{
+    color: #16161696;
+    font-family: TT Lakes Medium DEMO;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+.pc button{
+    border: 0;
+    border-radius: 5px;
+    font-family: TT Lakes Medium DEMO;
+    cursor: pointer;
+    font-size: 18px;
+    color: #f3f3f3;
+    background-color: #da292a;
+    padding: 15px 15px;
+}
+.spotlight3{
+    background-color: rgb(40, 37, 37);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spotlight3 h2{
+    margin-top: 5%;
+    font-family: Duke Fill;
+    font-size: 45px;
+}
+.news{
+    padding-top: 3%;
+    gap: 20px;
+    display: flex;
+    width: 75%;
+    height: 80%;
+}
+.news1{
+    width: 100%;
+    height: 80%;
+    background-color: #141415 ;
+}
+.news1 img{
+    width: 100%;
+    height: 50%;
+}
+.ndetails span{
+    margin-right: 20px;
+    font-family: Duke Fill;
+    color: #da292a;
+}
+.ndetails{
+    font-family: Duke Fill;
+    color: white;
+    margin-left: 20px;
+}
+.ndetails h2{
+    font-family: TT Lakes Medium DEMO;
+    color: white;
+    font-size: 20px;
+}
+.ndetails p{
+    font-family: TT Lakes Medium DEMO;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.nfot{
+    width: 100%;
+    height: 7px;
+    background-color: #da292a;
+    margin-top: 80px;
+}
+.spotlight4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.beyond{
+    width: 100%;
+    height: 100%;
+}
+.beyond img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+.beyond2{
+    text-align: center;
+    width: 65%;
+    position: absolute;
+    height: 90%;
+    margin-bottom: 5%;
+}
+.bimg{
+    gap: 30px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.bimage{
+    width: 50%;
+    color: white;
+    font-family: TT Lakes Medium DEMO;
+    text-align:center;
+}
+.bimage h3{
+    margin-top: 4%;
+}
+.bimage p{
+    margin-top: 20px;
+}
+.bimage img{
+    width: 120%;
+}
+.btext{
+    width: 100%;
+}
+.btext h1{
+    font-size: 45px;
+    margin-top: 3%;
+    font-family: Duke Fill;
+    color: white;
+}
+.btext h3{
+    margin-top: 4%;
+    font-family: TT Lakes Medium DEMO;
+    color: white;
 }
