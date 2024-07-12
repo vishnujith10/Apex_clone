@@ -117,6 +117,7 @@
 }
 .video {
     width: 100%;
+    height: 650px;
 }
 .video video {
     object-fit: cover;
@@ -165,11 +166,12 @@
 }
 .cahos{
     width: 100%;
+    height: 70%;
+    background-color: rgb(40, 37, 37);
 }
 .cahos img{
     object-fit: cover;
     width: 100%;
-    height: 70%;
 }
 .pc{
     position: absolute;
@@ -255,6 +257,7 @@
     margin-top: 80px;
 }
 .spotlight4{
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -264,7 +267,7 @@
 }
 .beyond{
     width: 100%;
-    height: 100%;
+    height: 125%;
 }
 .beyond img{
     height: 90%;
@@ -289,6 +292,9 @@
     color: white;
     font-family: TT Lakes Medium DEMO;
     text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .bimage h3{
     margin-top: 4%;
@@ -312,4 +318,129 @@
     margin-top: 4%;
     font-family: TT Lakes Medium DEMO;
     color: white;
+}
+.spotlight5{
+    background-color: rgb(40, 37, 37);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+.box1{
+    color: aliceblue;
+    width: 50%;
+    height: 90%;
+}
+.box1 h1{
+    font-family: Duke Fill;
+    font-size: 45px;
+    font-weight: 100;
+}
+.box1 p{
+    margin-top: 10%;
+    font-family: TT Lakes Medium DEMO;
+}
+.box2{
+    width: 50%;
+    height: 100%;
+}
+.input{
+    width: 100%;
+    height: 30%;
+}
+.input1{
+    width: 100%;
+    height: 50%;
+}
+.input1 input{
+    color: gray;
+    font-size: 15px;
+    border: 3px solid gray;
+    width: 99%;
+    height: 75%;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.input1 input::placeholder{
+    font-size: 15px;
+    padding-left: 5%;
+}
+.input2{
+    gap: 5%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.input2 input{
+    font-size: 15px;
+    border: 3px solid gray;
+    width: 47%;
+    height: 75%;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.input2 input::placeholder{
+    font-size: 15px;
+    padding-left: 5%;
+}
+.input2 select{
+    border: 3px solid gray;
+    width: 47%;
+    height: 80%;
+    border-radius: 4px;
+    background-color: transparent;
+
+}
+.input2 select option{
+    border: 3px solid black;
+    width: 47%;
+    height: 80%;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.check{
+    margin-top: 10%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.cbox{
+    height: 100%;
+    width: 5%;
+}
+.cbox input{
+    background-color: rgb(40, 37, 37);
+    height: 20px;
+    width: 20px;
+}
+.ctext{
+    color: #f3f3f3;
+    font-family: TT Lakes Medium DEMO;
+    font-size: 15px;
+    height: 100%;
+    width: 95%;
+}
+.ctext span{
+    color:#da292a;
+}
+.cbtn{
+    font-family: TT Lakes Medium DEMO;
+    margin-top: 5%;
+    margin-left: -30px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #f3f3f3;
+    border-radius: 5px;
+    width: 30%;
+    height: 20%;
+    background-color: #da292a;
+    border: 0;
 }
