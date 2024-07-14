@@ -70,7 +70,7 @@
 }
 .store1 {
     border-left: 1px solid rgba(244, 238, 238, 0.17);
-    font-weight: 100;
+    font-weight: normal;
     font-size: 20px;
     font-family: Duke Fill;
     color: white;
@@ -125,6 +125,7 @@
     height: 650px;
 }
 .video2 {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,6 +139,7 @@
     width: 30%;
 }
 .video2 h2 {
+    width: 100%;
     font-family: TT Lakes Medium DEMO;
     color: white;
 }
@@ -180,10 +182,12 @@
     margin-left: 5%;
 }
 .pc h1{
+    width: 100%;
     font-family: Duke Fill;
     font-size: 50px;
 }
 .pc h6{
+    width: 100%;
     color: #16161696;
     font-family: TT Lakes Medium DEMO;
     font-size: 18px;
@@ -209,6 +213,7 @@
     align-items: center;
 }
 .spotlight3 h2{
+    color: #f3f3f3;
     margin-top: 5%;
     font-family: Duke Fill;
     font-size: 45px;
@@ -240,11 +245,13 @@
     margin-left: 20px;
 }
 .ndetails h2{
+    width: 100%;
     font-family: TT Lakes Medium DEMO;
     color: white;
     font-size: 20px;
 }
 .ndetails p{
+    width: 100%;
     font-family: TT Lakes Medium DEMO;
     color: white;
     font-size: 15px;
@@ -297,9 +304,11 @@
     align-items: center;
 }
 .bimage h3{
+    width: 100%;
     margin-top: 4%;
 }
 .bimage p{
+    width: 100%;
     margin-top: 20px;
 }
 .bimage img{
@@ -309,12 +318,15 @@
     width: 100%;
 }
 .btext h1{
+    width: 100%;
     font-size: 45px;
     margin-top: 3%;
+    font-weight: 600;
     font-family: Duke Fill;
     color: white;
 }
 .btext h3{
+    width: 100%;
     margin-top: 4%;
     font-family: TT Lakes Medium DEMO;
     color: white;
@@ -339,11 +351,13 @@
     height: 90%;
 }
 .box1 h1{
+    width: 100%;
     font-family: Duke Fill;
     font-size: 45px;
     font-weight: 100;
 }
 .box1 p{
+    width: 100%;
     margin-top: 10%;
     font-family: TT Lakes Medium DEMO;
 }
@@ -356,10 +370,11 @@
     height: 30%;
 }
 .input1{
-    width: 100%;
+    width: 96%;
     height: 50%;
 }
 .input1 input{
+    padding-left: 4%;
     color: gray;
     font-size: 15px;
     border: 3px solid gray;
@@ -370,7 +385,6 @@
 }
 .input1 input::placeholder{
     font-size: 15px;
-    padding-left: 5%;
 }
 .input2{
     gap: 5%;
@@ -379,6 +393,8 @@
     display: flex;
 }
 .input2 input{
+    color: gray;
+    padding-left: 4%;
     font-size: 15px;
     border: 3px solid gray;
     width: 47%;
@@ -388,9 +404,9 @@
 }
 .input2 input::placeholder{
     font-size: 15px;
-    padding-left: 5%;
 }
 .input2 select{
+    padding-left: 4%;
     border: 3px solid gray;
     width: 47%;
     height: 80%;
@@ -429,6 +445,7 @@
     width: 95%;
 }
 .ctext span{
+    font-weight: normal;
     color:#da292a;
 }
 .cbtn{
@@ -443,4 +460,68 @@
     height: 20%;
     background-color: #da292a;
     border: 0;
+}
+.spotlight6{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 85%;
+}
+.spotlight6 img{
+    height: 85%;
+    width: 100%;
+}
+.sbox{
+    position: absolute;
+    width: 80%;
+    height: 72%;
+}
+.simage{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+.stext{
+    text-align: center;
+    width: 100%;
+    height: 60%;
+}
+.stext h1{
+    width: 100%;
+    font-weight: normal;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: Duke Fill;
+    color: #f3f3f3;
+}
+.stext h4{
+    width: 100%;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: TT Lakes Medium DEMO;
+    color: white;
+}
+.sbtn{
+    font-family: TT Lakes Medium DEMO;
+    margin-top: 5%;
+    cursor: pointer;
+    font-size: 18px;
+    color: #f3f3f3;
+    border-radius: 5px;
+    width: 17%;
+    height: 20%;
+    background-color: #da292a;
+    border: 0;
+}
+.sdisc{
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+.sdisc p{
+    width: 100%;
+    font-size: 15px;
+    color:#f3f3f3;
+    font-family: TT Lakes Medium DEMO;
 }
