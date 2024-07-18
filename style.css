@@ -525,3 +525,85 @@
     color:#f3f3f3;
     font-family: TT Lakes Medium DEMO;
 }
+.spotlight7{
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+    width: 100%;
+    height: 60%;
+}
+.fot{
+    height: 100%;
+    width: 85%;
+}
+.f1{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    border-bottom: 2px solid gray;
+}
+.f1s{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 70%;
+}
+.f1s a{
+    text-decoration: none;
+    color: #A3A3A3;
+    font-family: TT Lakes Medium DEMO;
+    font-size: 16px;
+}
+.f1s1{
+    height: 100%;
+    width: 30%;
+}
+.f1st{
+    display: flex;
+    justify-content: right;
+    color: #fff;
+    font-family: Duke Fill;
+    font-size: 25px;
+    height: 70%;
+    width: 100%;
+}
+.f1st h4{
+    font-weight: normal;
+    margin-top: 10%;
+}
+.fsnd{
+    display: flex;
+    justify-content: right;
+    height: 30%;
+    width: 100%;
+}
+.fsnd img{
+    height: 85%;
+}
+.f2{
+    display: flex;
+    height: 60%;
+    width: 100%;
+}
+.f21{
+    height: 100%;
+    width: 70%;
+}
+.f21 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.f22{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+.f22 img{
+    object-fit: contain;
+    height: 60%;
+    width: 65%;
+}
